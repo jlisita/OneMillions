@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 #banner
 {
     background-image: url(../assets/images/hero-image.jpg);
