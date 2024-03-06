@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    <header class = "bg-black flex justify-around content-center">
+    <header class = "bg-black flex justify-around items-center">
         <div>
             <img class = "w-52" src="assets/images/top-logo.png" alt="">
         </div>
         <nav>
-            <ul class ="flex justify-center content-center my-2">
+            <ul class ="flex justify-center items-center my-3">
                 <li class = "text-gray-400 mx-5">WHO WE ARE</li>
                 <li class = "text-gray-400 mx-5">GET INVOLVED</li>
             </ul>
@@ -35,11 +36,61 @@
                 <img class = "mb-10" src="assets/images/code.png" alt="">
             </div>
         </section>
-        <section id = "intro">
-
+        <section id = "intro" class = "flex flex-col justify-around items-center gap-5">
+            <div class = "mt-10">
+                <img src="assets/images/academy-brand-med.png" alt="">
+            </div>
+            <div class ="bg-red-400 h-1 w-36">
+            </div>
+            <p class="px-64 text-center mb-9">
+                We are <span class = "text-red-400">MASSIVE Academy</span>. We aim to improve education through both method - 
+                effective project-based learning - and material - by teaching skills that are applicable to improving your life today.
+            </p>
         </section>
-        <section id = "fonctions">
-
+        <section id = "fonctions" class = "bg-slate-100 flex flex-col justify-around items-center gap-5">
+            <h1 class = "text-red-400">GET INVOLVED</h1>
+            </div>
+            <div class ="bg-red-400 h-1 w-36">
+            </div>
+            <div id = "cards" class = "flex flex-row justify-around items-start">
+                <div class = "card flex flex-col justify-around items-center w-80 gap-5">
+                    <div>
+                        <i class="fa-solid fa-circle-user fa-5x "></i>
+                    </div>                
+                    <h2 class = "text-red-400">STUDENTS</h2>
+                    <p class = "text-center">
+                        Want to learn how to code? Want to help us get to 1,000,000 lines? Click the button below and we'll let you know how to get involved.
+                    </p>
+                    <div>
+                        <a href="">Start Learning »</a>
+                    </div>
+                </div>
+                <div class = "card flex flex-col justify-around items-center w-80 gap-5">
+                    <div>
+                        <i class="fa-solid fa-pencil fa-5x"></i>
+                    </div>
+                    <h2 class = "text-red-400">EDUCATORS</h2>
+                    <p class = "text-center">
+                        Want to bring this initiative to your school or institution? Awesome! Click the button below and we'll make it happen.<br><br>
+                    </p>
+                    <div>
+                        <a href="">Join The Initiative »</a>
+                    </div>
+                </div>
+                <div class = "card flex flex-col justify-around items-center w-80 gap-5">
+                    <div>
+                        <i class="fa-solid fa-money-bill-1 fa-5x"></i>
+                    </div>
+                    <h2 class = "text-red-400">SPONSORS</h2>
+                    <p class = "text-center">
+                        We love all the support we get to help host more events, and empower more lives with the knowledge of coding.
+                        Click to get involved.
+                    </p>
+                    <div>
+                        <a href="">Give Support »</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
