@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#banner
+{
+    background-image: url(../assets/images/hero-image.jpg);
+    background-size: cover;
+    background-position: top;
+}
